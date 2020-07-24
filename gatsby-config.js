@@ -10,7 +10,7 @@ module.exports = {
       resolve: `gatsby-source-rsshub`,
       options: {
         rsshub: ["/douban/movie/playing", "/36kr/newsflashes"],
-        cacheTime: 5 * 60 * 10000,
+        cacheTime: 1 * 60 * 1000,
       },
     },
     {
